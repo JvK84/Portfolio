@@ -815,8 +815,7 @@ img{
     width: 232px;
     justify-self: center;
     object-fit: fill;
-    border-top-left-radius: .75rem;
-    border-top-right-radius: .75rem;
+    border-radius: .75rem;
     min-height: 50%;
     min-width: 75%;
 }
@@ -1239,7 +1238,7 @@ img{
     .project__container{
         background-color: var(--first-color-second);
         border-radius: 1rem;
-        padding: 3rem 2.5rem 0;
+        padding: 3rem 2.5rem;
         grid-template-columns: 1fr max-content;
         column-gap: 3rem;
     }
